@@ -34,10 +34,12 @@
     <developer>
       <id>venkat1077</id>
       <name>Venkatesh Sethuram</name>
-      <email>venkatesh.sethuram@fujitsu.com</email>
+      <email>venkatesh.sethuram@us.fujitsu.com</email>
     </developer>
   </developers>
 
+  <!-- Provide usename and password for both 'GitHub and maven.jenkins-ci.org'
+  in ~/.m2/settings.xml file when releasing new version -->
   <scm>
     <connection>scm:git:https://github.com/jenkinsci/warrior-plugin.git</connection>
     <developerConnection>scm:git:https://git@github.com/jenkinsci/warrior-plugin.git</developerConnection>
@@ -85,7 +87,7 @@
           </dependency>
         </dependencies>
       </plugin>
-	</plugins>
+    </plugins>
     <resources>
       <resource>
         <directory>src/main/resources</directory>
