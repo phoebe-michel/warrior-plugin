@@ -21,7 +21,7 @@
 
   <name>Warrior Framework Plugin</name>
   <description>Jenkins plugin for Warrior Framework</description>
-  <url>https://github.com/jenkinsci/warrior-plugin</url>
+  <url>https://wiki.jenkins-ci.org/display/JENKINS/Warrior+Framework+Plugin</url>
 
   <licenses>
     <license>
